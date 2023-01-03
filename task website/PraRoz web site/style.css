@@ -1,0 +1,35 @@
+.conteiner{
+    background-color: brown;
+    display: block;
+    margin: 10px;
+}
+.box1{
+    background-color: aquamarine;
+  
+    height: 20vh;
+    display: inline;
+}
+.box2{
+    background-color:pink;
+    width: 20%;
+    height: 20vh;
+    
+}
+.box3{
+    background-color:rgb(48, 7, 194);
+    width: 20%;
+    height: 20vh;
+    margin: 10px;
+}
+.box4{
+    background-color:rgb(3, 186, 22);
+    width: 20%;
+    height: 20vh;
+
+}
+.box5{
+    background-color:rgb(196, 16, 46);
+    width: 20%;
+    height: 20vh;
+
+}
