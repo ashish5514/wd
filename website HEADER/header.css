@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#body1{
+    
+    background-color: red;
+    height: 500px;
+    width: 1550px;
+
+}
+#body2{
+    background-color:grey;
+    height: 1550px;
+    width: 1550px;
+}
+#log{
+    width: 125px;
+    height: 125px;
+    margin: 10px 10px 10px 10px;
+}
+#bimg{
+    width: auto;
+    height: 1550px;
+
+}
