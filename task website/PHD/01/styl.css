@@ -2,10 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: #a9a9a97c;
 }
 
 header {
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+        background-color: rgba(169, 169, 169, 0.658);
+
+    
 }
 
 .navbar img {
@@ -31,9 +39,7 @@ header {
     display: flex;
 }
 
-.container {
-    background-image: linear-gradient(109.6deg, rgba(255, 179, 189, 1) 1.8%, rgba(254, 248, 154, 1) 50.6%, rgba(161, 224, 186, 1) 100.3%)
-}
+
 
 .main {
     text-align: center;
@@ -48,22 +54,61 @@ header {
 
 .main p {
     font-size: 20px;
+    padding-bottom: 10px;
 }
-.main input{
+
+.main input {
     width: 50%;
     height: 45px;
     font-size: 18px;
     font-weight: 300;
     padding: 7px 20px;
     border: none;
-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .search button {
-    height: 48pxs;
+    height: 48px;
     border: none;
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
-    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 
 }
+.row .col {
+    /* border: 1px solid; */
+    width: 30%;
+    margin:0 auto;
+   
+
+}
+.img1{
+    height: 215px;
+}
+.box img {
+        width: 100%;
+        
+}
+.col{
+    transition: transform 1s;
+}
+.box:hover{
+
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 10px 10px 10px;
+}
+
+.row{
+    display: flex;
+}
+.gallery img{
+    border: 1px solid;
+    /* display: grid; */
+    columns: 3;
+
+}
+
+.gallery img{
+    width: 30%;
+}
+
