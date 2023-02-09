@@ -3,17 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
+
 }
-body{
+
+body {
     background-color: #a9a9a97c;
 }
 
 header {
 
-        background-color: rgba(169, 169, 169, 0.658);
+    background-color: #a9a9a9d9;
+    z-index: 999999999999999999;
+    position: fixed;
+    width: 100%;
 
-    
 }
 
 .navbar img {
@@ -74,41 +77,101 @@ header {
     border-bottom-left-radius: 20px;
 
 }
+
 .row .col {
     /* border: 1px solid; */
     width: 30%;
-    margin:0 auto;
-   
+    margin: 0 auto;
+
 
 }
-.img1{
+
+.img1 {
     height: 215px;
 }
+
 .box img {
-        width: 100%;
-        
+    width: 100%;
+
 }
-.col{
+
+.col {
     transition: transform 1s;
 }
-.box:hover{
+
+.box:hover {
 
     transform: scale(.8);
     transition: all 1s;
     box-shadow: 10px 10px 10px;
 }
 
-.row{
+.row {
     display: flex;
 }
-.gallery img{
-    border: 1px solid;
-    /* display: grid; */
-    columns: 3;
+
+
+.gallery img {
+    /* border: 1px solid; */
+    width: 300px;
+    height: 300px;
+}
+
+.border {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 70px;
+
 
 }
 
-.gallery img{
-    width: 30%;
-}
 
+.gallery {
+    padding-top: 15px;
+}
+.item1:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item2:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item3:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item4:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item5:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item6:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item7:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item8:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item9:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
