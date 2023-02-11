@@ -112,6 +112,7 @@ header {
 
 
 .gallery img {
+    
     /* border: 1px solid; */
     width: 300px;
     height: 300px;
@@ -122,13 +123,12 @@ header {
     grid-template-columns: auto auto auto;
     justify-content: center;
     gap: 70px;
-
-
 }
 
 
 .gallery {
     padding-top: 15px;
+    
 }
 .item1:hover{
     transform: scale(.8);
