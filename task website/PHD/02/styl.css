@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+ .nav ul li{
+    display: inline;
+}
+.header .nav{
+}
