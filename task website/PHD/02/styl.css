@@ -1,16 +1,19 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
-.header{
+
+.header {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
 }
- .nav ul li{
+
+.button{
+    align-items: center;
+}
+
+.nav ul li {
     display: inline;
-}
-.header .nav{
 }
