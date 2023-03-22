@@ -1,0 +1,8 @@
+.border-outline{
+    border: 15px dashed orangered;
+    outline: 15px dotted yellow;
+}
+a:hover{
+    border: 2px double brown;
+    outline: 8px dotted brown;
+}

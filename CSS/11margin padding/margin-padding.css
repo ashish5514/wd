@@ -1,0 +1,21 @@
+div{
+    border: 2px solid;
+}
+.padding{
+    /* padding: 50px; */
+}
+.margin{
+    margin: 50px;
+}
+.padding{
+    /* padding: 50px; 4 side equal */
+    /* padding: 50px 10px; 2 side equal xy */
+    /* padding: 50px 10px 80px; 3side top right bottom  */
+    /* padding: 50px 10px 80px 120px; 4side top right bottom left  */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* padding-right: 10px; */
+}
+
+

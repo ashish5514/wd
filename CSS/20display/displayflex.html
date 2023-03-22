@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border: 1px solid;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .flex-direction-column {
+            height: 100px;  
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row; */
+            flex-direction: row-reverse;
+
+
+        }
+        
+        .row-flex-container {
+        align-content: space-around; 
+    }
+    </style>
+</head>
+
+<body>
+    <h3>display flex</h3>
+    <div class="row">
+        <div class="box">text</div>
+        <div class="box">text</div>
+        <div class="box">text</div>
+        <div class="box">text</div>
+        <div class="box">text</div>
+        <div class="box">text</div>
+    </div>
+    <h3>display flex-direction-column</h3>
+    <ul>
+        <li>column</li>
+        <li>column-reverse</li>
+        <li>row</li>
+        <li>row-reverse</li>
+    </ul>
+    <div class="flex-direction-column">
+        <div class="box">text1</div>
+        <div class="box">text2</div>
+        <div class="box">text3</div>
+        <div class="box">text4</div>
+        <div class="box">text5</div>
+        <div class="box">text6</div>
+    </div>
+    <h2>align-content</h2> 
+    <p>
+        align-content: flex-start | flex-end | center | space-between | space-around | stretch
+    </p>
+    <pre>
+        flex-container {
+        align-content: space-around; }
+    </pre>
+    <div class="row-flex-container">
+        <div class="box">text1</div>
+        <div class="box">text2</div>
+        <div class="box">text3</div>
+        <div class="box">text4</div>
+        <div class="box">text5</div>
+        <div class="box">text6</div>
+    </div>
+
+
+</body>
+
+</html>

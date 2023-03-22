@@ -1,0 +1,110 @@
+*{
+    margin: 20px;
+    font-family: sans-serif;
+}
+.main{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    margin: 10px;
+    height: auto;
+    box-shadow: 10px 25px 5px;
+}
+.containt{
+    line-height: 30px;
+    text-align: center;
+    
+}
+h1{
+    padding-top: 40px;
+    color:orange;
+    font-size: 40px;
+}
+h2{
+    color: #040c0c;
+}
+h3{
+    color: green;
+    font-size: 40px;
+}
+.text{
+    line-height:30px ;
+    width: 60%;
+    margin: 0 auto;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+.box{
+    width: 120px;
+    
+    
+}
+.box div{
+   
+    text-align: center;
+    font-size: 30px;
+    /* padding: 20px 0px;  */
+    border-radius: 50%;
+  
+}
+.box div:hover{
+    box-shadow: 10px 15px 5px  ;
+}
+
+.drop{
+    background-color:orange;
+    /* border-radius: 50%; */
+    /* padding: 5px ; */
+}
+.power{
+    /* font-size: 60px; */
+    background-color: chartreuse;
+    /* border-radius: 50%; */
+    /* padding: 10px; */
+}
+.fire{
+    /* font-size: 60px; */
+    background-color: darkorchid;
+    /* border-radius: 50%; */
+    /* padding: 10px 20px 10px 20px; */
+}
+.bag{
+    /* font-size: 60px; */
+    background-color:gold;
+    /* border-radius: 50%; */
+    /* padding: 10px 20px 10px 20px; */
+}
+.mobile{
+    /* font-size: 60px; */
+    background-color:darkgreen;
+    /* border-radius: 50%; */
+    /* padding: 10px 20px 10px 20px; */
+}
+.redio{
+    /* font-size: 60px; */
+    background-color:indigo;
+    /* border-radius: 50%; */
+    /* padding: 10px 20px 10px 20px; */
+}
+.privcy{
+    /* font-size: 60px; */
+    background-color:mediumslateblue;
+    /* border-radius: 50%; */
+    /* padding: 10px 20px 10px 20px; */
+}
+.home{
+    /* font-size: 60px; */
+    background-color: navy;
+    /* border-radius: 50%; */
+    /* padding: 10px 20px 10px 20px; */
+}
+.book{
+    /* font-size: 60px; */
+    background-color:mediumseagreen;
+    /* border-radius: 50%; */
+    /* padding: 10px 20px 10px 20px; */
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery    </title>
+    <style>
+        *{
+            border: 1px solid;
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+        .main{
+            /* height: 500px; */
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: minmax(100px auto);
+            gap: 15px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+        .item1{
+            grid-column:1 ;
+            grid-row:1/3 ;
+        }
+        .item2{
+            grid-column:2;
+            grid-row:1 ;
+        }
+        .item3{
+            grid-column:3/3 ;
+            grid-row:1 ;
+        }
+        .item4{
+            grid-column:1/4 ;
+            grid-row:2;
+        }
+        .item5{
+            grid-column:2 /4;
+            grid-row:2 ;
+        }
+        .item6{
+            grid-column: 3; 
+            grid-row:2 ;
+        }
+        .item7{
+            grid-column:1 ;
+            grid-row:3 ;
+        }
+        .item8{
+            grid-column:2 ;
+            grid-row:3 ;
+        }
+        .item9{
+            grid-column:3 ;
+            grid-row:3 ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="box">
+            <div class="item1"><img src="grid/index7.jpeg" alt=""></div>
+            <div class="item2"><img src="grid/index1.jpeg" alt=""></div>
+            <div class="item3"><img src="grid/index4.jpeg" alt=""></div>
+            <div class="item4"><img src="grid/index5.jpeg" alt=""></div>
+            <div class="item5"><img src="grid/index4.jpeg" alt=""></div>
+            <div class="item6"><img src="grid/index1.jpeg" alt=""></div>
+            <div class="item7"><img src="grid/index7.jpeg" alt=""></div>
+            <div class="item8"><img src="grid/index8.jpeg" alt=""></div>
+            <div class="item9"><img src="grid/index9.jpeg" alt=""></div>
+        </div>
+    </div>
+    </body>
+</html>

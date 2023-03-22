@@ -1,0 +1,63 @@
+.text-color{
+    color: cyan;
+
+}
+p[class*=text-alignment]{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px;
+    border: solid gray;
+    width: 200px;
+}
+.text-alignment-center{
+    text-align: center;
+
+}
+.text-alignment-end{
+    text-align: end;
+}
+.text-alignment-start{
+    text-align: start;
+}
+.text-alignment-justify{
+    text-align: justify;
+}
+.text-alignment-left{
+    text-align: left;
+}
+.text-alignment-right{
+    text-align: right;
+}
+.decor-overline{
+    text-decoration: overline;
+}
+.decor-underline{
+    text-decoration: underline;
+}
+.decor-line-throught{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+.Text-Transformation{
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+
+}
+.Text-Indentation{
+    text-indent:100px;
+
+    
+}
+.Letter-Spacing{
+    letter-spacing: 2px;
+
+    
+}
+.Word-Spacing{
+    word-spacing: 20px;
+
+    
+}
