@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: #a9a9a97c;
+}
+
+header {
+
+    background-color: #a9a9a9d9;
+    z-index: 999999999999999999;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar img {
+    width: 70px;
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.nav ul li {
+    display: inline;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+}
+
+
+
+.main {
+    text-align: center;
+    line-height: 40px;
+    /* margin: 10px; */
+    padding: 130px;
+}
+
+.main h1 {
+    font-size: 45px;
+}
+
+.main p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.main input {
+    width: 50%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.search button {
+    height: 48px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.row .col {
+    /* border: 1px solid; */
+    width: 30%;
+    margin: 0 auto;
+
+
+}
+
+.img1 {
+    height: 215px;
+}
+
+.box img {
+    width: 100%;
+
+}
+
+.col {
+    transition: transform 1s;
+}
+
+.box:hover {
+
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 10px 10px 10px;
+}
+
+.row {
+    display: flex;
+}
+
+
+.gallery img {
+    
+    /* border: 1px solid; */
+    width: 300px;
+    height: 300px;
+}
+
+.border {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+.gallery {
+    padding-top: 15px;
+    
+}
+.item1:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item2:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item3:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item4:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item5:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item6:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item7:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item8:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}
+.item9:hover{
+    transform: scale(.8);
+    transition: all 1s;
+    box-shadow: 5px 10px 7px ;
+}

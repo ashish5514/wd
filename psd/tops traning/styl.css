@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+}
+.header-bg{
+    background: url(image/Rectangle.png);
+    height: 100vh;
+}
+.row{
+    display: flex;
+}
+.ml-a{
+    margin-left: auto;
+
+}
+.header-menu{
+    line-height: 50px;
+    vertical-align: middle;
+    
+}
+.menu-right div{
+    line-height: initial;
+    
+}
