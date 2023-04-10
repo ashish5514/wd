@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.logo{
+    text-align: center;
+    margin-top: 80px;
+}
+.box{   
+    background-color: beige;
+box-shadow: 10px 5px 7px;
+    
+    
+}
+.box img{
+    width: 100%;
+}
+.row{
+    padding:80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+}
+.col{
+    padding-bottom: 30px;
+    width: 30%;
+    margin: 0 auto;
+}
+button{
+    width: 80px;
+    margin:20px  0 10px 5px ;
+}
+p{
+    margin-left: 10px;
+}
