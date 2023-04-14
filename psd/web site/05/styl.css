@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 .flex{
@@ -16,14 +15,14 @@
 }
 .hed-bg{
     bottom: 10px;
-
+    
 } */
 .header{
     background-image: url(img/row1\ bg.png);
-
+    
 }
 .row{
-align-items: center;
+    align-items: center;
 }
 .just-sb{
     justify-content: space-around;
@@ -32,6 +31,7 @@ align-items: center;
 ul li{
     margin: 0 30px;
     font-size: 23px;
+    text-decoration: none;
 
 
 }
