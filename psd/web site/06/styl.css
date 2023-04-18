@@ -1,51 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* border: 1px solid; */
 }
-.bg-img{
+
+.bg-img {
     background-image: url(img/s1\ img1.png);
-    background-position:center;
+    background-position: center;
     background-size: cover;
     /* height: 100vh; */
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.jus-sb{
+
+.jus-sb {
     justify-content: space-between;
 }
-.al-center{
+
+.al-center {
     align-items: center;
 }
-.col-33img img{
-    
-}
-ul li{
+
+
+ul li {
     margin: 0 20px;
 }
-.mar-lr{
+
+.mar-lr {
     background-color: white;
     margin: 0px 40px;
     border-radius: 10px;
 }
-.headr-text1{
+
+.headr-text1 {
     font-size: 50px;
     width: 90%;
     margin: 100px 0px 100px 20px;
     padding: 100px 0;
 }
-.headr-text2{
+
+.headr-text2 {
     width: 60%;
     font-size: 40px;
     margin-top: 100px;
     margin-left: auto;
     padding: 100px 0;
 }
-.headr-text2 p{
-    margin: 10px;
 
-        background-color: aliceblue;
+.headr-text2 p {
+padding-left: 99px;
+background-color: aliceblue;
 
+}
+/* section 2 start  */
+
+.s2-col-33{
+ width: 30%;
+ overflow: hidden;
+}
+
+.s2-col-33-box button{
+    /* margin: 0 40%; */
+    width: 20px;
+    hight: 20px;
+    
+}
+.s2-col-33-box img{
+    /* overflow: hidden; */
+    width: 100%;
+}
+
+.s2-col-33-box-button{
+    /* width: 100%; */
+    /* margin-left: 50px; */
 }
