@@ -6,16 +6,18 @@
 }
 
 .bg-img {
-    background-image: url(img/s1\ img1.png);
+    background-image: url(../06/img/banner-bg.png);
     /* background-position: center; */
     /* background-size:contain; */
     /* background-size:cover; */
     /* background-size:unset; */
     /* background-size:inherit; */
     /* background-size:initial; */
-    width: 100%;
+    /* width: 100%; */
     /* background: no-repeat; */
-
+height: 1060px;
+background-size: cover;
+background-position: center right;
     /* background: no-repeat; */
     /* height: 100vh; */
 }
@@ -59,68 +61,76 @@ ul li {
 }
 
 .headr-text2 p {
-padding-left: 99px;
-background-color: aliceblue;
+    padding-left: 99px;
+    background-color: aliceblue;
 
 }
+
 /* section 2 start  */
 
-.s2-col-33{
- width: 30%;
- overflow: hidden;
+.s2-col-33 {
+    width: 30%;
+    overflow: hidden;
 }
 
-.s2-col-33-box button{
+.s2-col-33-box button {
     /* margin: 0 40%; */
     width: 115px;
     height: 32px;
-border-radius: 7px;
-background-color:#ffffff;
-border: none;
-box-shadow: 0px 8px 7px ;
-    
+    border-radius: 7px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 8px 7px;
+
 }
-.s2-col-33-box img{
+
+.s2-col-33-box img {
     /* overflow: hidden; */
     width: 100%;
 }
 
-.s2-col-33-box-button{
+.s2-col-33-box-button {
     /* width: 100%; */
     margin-left: 145px;
 }
-.pos-rel{
+
+.pos-rel {
     position: relative
 }
-.pos-ab{
- position: absolute;
- bottom: 5px;
+
+.pos-ab {
+    position: absolute;
+    bottom: 5px;
 }
+
 /* sectio 3 start  */
-.s3-bg{
+.s3-bg {
     background-image: url(img/s3\ img1.png);
-       background-position: center;
+    background-position: center;
     /* background-size:contain; */
-    background-size:cover;
+    background-size: cover;
     height: 90vh;
 
 }
 
-.s3-text-1{
-padding:60px 20px 60px 20px;
+.s3-text-1 {
+    padding: 60px 20px 60px 20px;
 }
-.margin-tb{
+
+.margin-tb {
     margin: 200px 0;
 }
 
-.s3-text-1 h3{
+.s3-text-1 h3 {
     margin: 20px 0;
     font-size: 25px;
 }
-.s3-text-1 p{
+
+.s3-text-1 p {
     margin: 20px 0;
 }
-.s3-text{
+
+.s3-text {
     width: 30%;
     background: #a11d20;
     border-radius: 10px;
@@ -132,66 +142,82 @@ padding:60px 20px 60px 20px;
 
 /* section 4 start  */
 
-.s4-img{
+.s4-img {
     width: 50%;
 }
+
 .s4-text {
     /* font-size: 50px; */
     width: 50%;
     /* margin: 50px 0px 50px 0px; */
     /* padding: 100px 0; */
 }
-.s4-text{
+
+.s4-text {
     width: 50%;
 }
 
-.phone i{
+.phone i {
     font-size: 50px;
-    color: ;
-padding: 0 10px;
+    color: red ;
+    padding: 0 10px;
 
 
 }
-.phone-text p{
-    font-size: 30px;
-    
 
-}
-.email-text p{
+.phone-text p {
     font-size: 30px;
 
 
 }
-.loc-text p{
+
+.email-text p {
     font-size: 30px;
 
 
 }
-.email i{
-    font-size: 50px;
-padding: 0 10px;
 
-}
-
-.loc i{
-    font-size: 50px;
-padding: 0 10px;
+.loc-text p {
+    font-size: 30px;
 
 
 }
-.s4-text h2{
+
+.email i {
+    color: red ;
+
+    font-size: 50px;
+    padding: 0 10px;
+
+}
+
+.loc i {
+    color: red ;
+
+    font-size: 50px;
+    padding: 0 10px;
+
+
+}
+
+.s4-text h2 {
     font-size: 75px;
+    color:red;
     /* padding: 40px 0 40px 50px; */
 }
-.s4-text{
+
+.s4-text {
     margin: 50px;
 }
-.jsc{
+
+.jsc {
     justify-content: center;
 }
-.icon{
-margin: 90px 0;
+
+.icon {
+    margin: 90px 0;
 }
-.email{
+
+.email {
     margin: 0 20px;
 }
