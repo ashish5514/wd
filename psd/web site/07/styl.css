@@ -47,8 +47,9 @@
 
     ul li {
         margin: 0 10px;
-        text-decoration: none;
+        list-style: none;
     }
+
 
     .hed-text {
         font-size: 16px;
@@ -68,7 +69,6 @@
     }
     /* section 2 start  */
 
-    /* section 2 start  */
 
 .s2-col-33 {
     width: 30%;
