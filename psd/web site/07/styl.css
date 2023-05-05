@@ -4,7 +4,9 @@
         box-sizing: border-box;
         /* border: 1px solid; */
     }
-
+    .jus-sb{
+        justify-content: space-between;
+    }
     .s1-bg {
         background-image: url(img/banner-bg.png);
         height: 1060px;
@@ -69,10 +71,31 @@
     }
     /* section 2 start  */
 
-
+.container-1{
+    width: 90%;
+    margin: 99px auto;
+}
 .s2-col-33 {
     width: 30%;
     overflow: hidden;
+}
+.s2-text h2{
+    font-size: 25px;
+    margin: 10px 0;
+    
+}
+.s2-text h3{
+    font-size: 22px;
+    margin: 10px 0;
+    
+}
+.s2-text p{
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+.s2-text{
+    margin: 10px 0;
 }
 
 .s2-col-33-box button {
@@ -103,4 +126,131 @@
 .pos-ab {
     position: absolute;
     bottom: 5px;
+}
+
+/* sectio 3 start  */
+
+.s3-bg {
+    background-image: url(img/s3\ img1.png);
+        height: 90vh;
+        background-size: cover;
+        background-position: center right ;
+        position: relative;
+
+}
+.container-1{
+    width: 95%;
+    margin: 99px auto;
+}
+
+.s3-text-1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.s3-text-1 h3 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.s3-text-1 p {
+    margin: 20px 0;
+}
+
+.s3-text {
+    width: 30%;
+    background: #a11d20;
+    border-radius: 10px;
+    /* height: 100vh; */
+    position: absolute;
+    left: 50px;
+    bottom: 225px;
+}
+.margin-tb{
+    margin: 90px 0;
+}
+
+
+/* section 4 start  */
+
+
+.s4-img {
+    width: 50%;
+}
+
+.s4-text {
+    /* font-size: 50px; */
+    width: 50%;
+    /* margin: 50px 0px 50px 0px; */
+    /* padding: 100px 0; */
+}
+
+.s4-text {
+    width: 50%;
+}
+
+.phone i {
+    font-size: 50px;
+    color: red ;
+    padding: 0 10px;
+
+
+}
+
+.phone-text p {
+    font-size: 30px;
+
+
+}
+
+.email-text p {
+    font-size: 30px;
+
+
+}
+
+.loc-text p {
+    font-size: 30px;
+
+
+}
+
+.email i {
+    color: red ;
+
+    font-size: 50px;
+    padding: 0 10px;
+
+}
+
+.loc i {
+    color: red ;
+
+    font-size: 50px;
+    padding: 0 10px;
+
+
+}
+
+.s4-text h2 {
+    font-size: 75px;
+    color:red;
+    /* padding: 40px 0 40px 50px; */
+}
+
+.s4-text {
+    margin: 50px;
+}
+
+.jsc {
+    justify-content: center;
+}
+
+.icon {
+    margin: 90px 0;
+}
+
+.email {
+    margin: 0 20px;
 }
