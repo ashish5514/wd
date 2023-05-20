@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +8,56 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/tggle.css">
 </head>
+
 <body>
-    <header >
+    <header>
         <div class="container">
 
             <nav>
-                
-            <div class="logo">
-                <h1>Ashish</h1>
-            </div>
-            <div class="nav  " id="nav">
-                <ul class="flex al-center">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">project</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </div>
-            <div class="toggle" onclick="onMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </div>
+
+                <div class="logo">
+                    <h1>Ashish</h1>
+                </div>
+                <div class="nav " id="nav">
+                    <ul class="flex al-center">
+                        <li><a href="#">home</a></li>
+                        
+                            <span style=" margin-left: 300px; width: 10px;
+                            height: 10px; position: absolute; z-index: 100; top: 80px;" onclick="subMenu()">></span>
+                        <li class="menu  " id="menu2" ><a href="#">project</a>
+                            
+                            <ul class="sub_menu" >
+                                <li><a href="#">Project1</a></li>
+                                <li><a href="#">Project1</a></li>
+                                <li><a href="#">Project1</a></li>
+                                <li><a href="#">Project1</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div class="toggle" onclick="onMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
     </header>
     <script>
-        function onMenu(){
+        function onMenu() {
             document.getElementById('nav').classList.toggle('active');
-            console.log("hellw");
+        }
+        function subMenu() {
+            // document.getElementById('menu2').classList.toggle('active2');
+            // console.log("hellows")
+            var element = document.getElementById("menu2");
+            element.classList.toggle("active2");
+            console.log("hellow")
         }
     </script>
 </body>
+
 </html>

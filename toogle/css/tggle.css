@@ -1,74 +1,130 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
+    background-color: brown;
     /* justify-content: space-between; */
 }
-.container{
+
+.container {
     width: 90%;
     margin: 0 auto;
 }
-a{
+
+a {
     text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-transform: capitalize;
 }
-nav{
+
+nav {
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: transparent;
     align-items: center;
     position: relative;
     justify-content: space-around;
 }
-.al-center li{
+.menu{
+    position: relative;
+}
+.sub_menu {
+    position: absolute;
+    height: 0;
+    top: 55px;
+    overflow: hidden;
+    transition: all 2s;
+    /* border: 2px solid; */
+    background-color: burlywood;
+
+}
+
+.menu:hover .sub_menu {
+    display: block;
+    height: 230px;
+}
+
+.al-center li {
     display: inline-block;
     list-style: none;
     padding: 20px;
 }
-.toggle{
+
+.sub_menu li {
+    display: block;
+}
+
+.toggle {
     display: none;
     position: absolute;
     right: 0;
     /* border: 2px solid; */
 }
-.toggle span{
+
+.toggle span {
     display: block;
     height: 4px;
-    margin:  5px 0;
+    margin: 5px 0;
     width: 25px;
     background-color: black;
 }
-.active ul{
-    background-color: azure;
+
+.active ul {
+    background-color:brown;
 }
-@media screen and (max-width:576px){
-    nav{
+.al-center span{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    nav {
         justify-content: space-between;
         /* background-color:#f38a0a ; */
     }
-    .al-center{
+.al-center span{
+    display: block;
+}
+    .al-center {
 
         /* display: none; */
         position: absolute;
-        left:-400px;
-        top: 0;
+        left: -400px;
+        top: 30px;
         display: block;
         width: 90%;
         transition: all 2s;
     }
-    .al-center li{
+ .sub_menu{
+    position: static;
+ }
+    .al-center li {
         display: block;
     }
-    .active .al-center{
+
+    .active .al-center {
         left: 0;
         /* display: block; */
     }
-    .active .al-center li{
+
+    .active .al-center li {
         display: block;
     }
-    .toggle{
+
+    .toggle {
         display: block;
     }
+    
+.menu:hover .sub_menu {
+    display: none;
+    height: 0px;
+}
+.active2 .sub_menu{
+    height:230px ;
+    /* display: block; */
+
+}
 }
