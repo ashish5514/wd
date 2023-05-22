@@ -389,3 +389,31 @@ ul li {
     height: 40px;
     border: none;
 }
+
+@media (min-width: 576px) { 
+    .navbar{
+        width: 100%;
+
+    }
+    .navbar ul{
+        display: flex;
+        overflow: hidden;
+    }
+    ul li {
+        display: inline;
+        margin: 25px;
+        font-size: 10px;
+    }
+    .nav {
+        margin-left: auto;
+        overflow: hidden;
+    }
+ }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
+
+@media (min-width: 1400px) { ... }
