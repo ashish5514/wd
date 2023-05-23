@@ -406,14 +406,34 @@ ul li {
     }
     .nav {
         margin-left: auto;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
+    /* ....... */
+    /* .navbar {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar img {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    ul li {
+        display: inline;
+        margin: 50px;
+        font-size: 20px;
+    }
+    
+    .nav {
+        margin-left: auto;
+    }   */
  }
 
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {  }
 
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {  }
 
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { }
 
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) {  }
