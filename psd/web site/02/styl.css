@@ -12,55 +12,68 @@
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-.navbar img {
-    margin-left: 50px;
-    margin-top: 10px;
-}
+
 
 ul li {
     display: inline;
-    margin: 50px;
-    font-size: 20px;
+    /* margin: 50px; */
+    /* justify-content: space-around; */
+    margin: 0 25PX;
+    font-size: 22px;
 }
 
-.nav {
-    margin-left: auto;
-}
+/* HEADER.....END */
 
-.container .taxt {
+.row{
+    margin: 0 auto;
+    align-content: center;
+
+}
+.container .row {
     display: flex;
 
 }
 
-.img1 img {
+
+.col-50 img {
     /* height: 400px; */
     width: 100%;
 }
 
-.heding {
-    text-align: center;
+.col-50{
+    /* text-align: center; */
     width: 50%;
-    padding: 60px;
-    position: relative;
+    
+    /* align-items: center; */
+    /* padding: 60px; */
+    /* position: relative; */
 
 }
+.col-50-text{
+    text-align: center;
+    margin: 219px 0;
+}
 
-.heding p {
-    width: 561px;
-    height: 102px;
+.col-50-text p {
+    width: 80%;
+    line-height: 25px;
+    /* text-align: center; */
+    margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: center;
     font-size: 21px;
-    letter-spacing: 0px;
-    line-height: 33px;
     color: #484f5b;
     font-weight: 400;
-    margin-top: 45px;
+    margin-top: 20px;
 
 }
 
-.heding h2 {
-    font-size: 65px;
+.col-50-text h2 {
+    font-size: 55px;
     /* letter-spacing: ; */
     color: #484f5b;
     font-weight: 600;
@@ -390,45 +403,7 @@ ul li {
     border: none;
 }
 
-@media (min-width: 576px) { 
-    .navbar{
-        width: 100%;
-
-    }
-    .navbar ul{
-        display: flex;
-        overflow: hidden;
-    }
-    ul li {
-        display: inline;
-        margin: 25px;
-        font-size: 10px;
-    }
-    .nav {
-        margin-left: auto;
-        /* overflow: hidden; */
-    }
-    /* ....... */
-    /* .navbar {
-        display: flex;
-        align-items: center;
-    }
-    
-    .navbar img {
-        margin-left: 50px;
-        margin-top: 10px;
-    }
-    
-    ul li {
-        display: inline;
-        margin: 50px;
-        font-size: 20px;
-    }
-    
-    .nav {
-        margin-left: auto;
-    }   */
- }
+@media (min-width: 576px) {  }
 
 @media (min-width: 768px) {  }
 
