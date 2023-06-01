@@ -1,0 +1,251 @@
+:root {
+    --background-color: #fff;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  body[theme="light"] {
+    background-color: var(--background-color);
+  }
+  
+  body[theme="dark"] {
+    --background-color: #000;
+  }
+  
+  .container {
+    width: min(95%, 1200px);
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1em 0;
+    position: relative;
+    z-index: 10;
+    color: #7fa1c1;
+    letter-spacing: 2px;
+    font-family: "Alfa Slab One", cursive;
+    text-shadow: 0 0 1px #000, 0 1px 1px #000, 1px 2px 1px #000, 2px 3px 1px #000,
+      3px 4px 1px #000;
+  }
+  
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*  code block */
+  
+  .code-block {
+    position: absolute;
+    width: 100%;
+    background-color: #edf8f8;
+    left: 0;
+    top: 0;
+    height: 0;
+    z-index: 5;
+    transition: height 300ms ease-in-out;
+  }
+  
+  .code-block.open {
+    height: 100vh;
+  }
+  
+  .code-block main {
+    top: 150px;
+    display: none;
+  }
+  
+  .code-block.open main {
+    display: block;
+  }
+  
+  #close-btn {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .code-block.open #close-btn {
+    display: block;
+  }
+  
+  /* code container */
+  
+  .code-container {
+    position: relative;
+    width: 60%;
+    left: 40%;
+    box-shadow: 0 0 5px #aaa, 0 0 1em #dedede;
+  }
+  
+  .code-container .code {
+    height: 450px;
+    border: 3px solid #7a8b8b;
+    background-color: #fff;
+    overflow-y: scroll;
+    padding: 1em 2em;
+  }
+  
+  .tab-links {
+    display: flex;
+    background-color: #efefef;
+  }
+  .tab-links li {
+    font-size: 1rem;
+    padding: 0.65em;
+    background-color: #efefef;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .tab-links li.active {
+    background-color: #7a8b8b;
+    color: #fff;
+  }
+  
+  .copy-btn-container {
+    background-color: #efefef;
+    padding: 0.5em;
+    border-radius: 0 0 0.75em 0.75em;
+  }
+  
+  /*  toggle containers */
+  
+  main {
+    position: relative;
+  }
+  
+  .toggle-row {
+    margin: 1em 0;
+    flex-wrap: wrap;
+  }
+  
+  .toggle-container {
+    width: min(90%, 250px);
+    height: 250px;
+    border-radius: 0.75em;
+    margin: 1.5em;
+    box-shadow: 0 0 3px #aaa, 0 0 10px #dedede;
+    border: 3px solid transparent;
+    background-color: #fff;
+    transition: border 150ms ease-in-out, width 350ms ease-in-out;
+    position: relative;
+  }
+  
+  .toggle-container:hover {
+    border: 3px solid #2f4f4f;
+  }
+  
+  .row-1 {
+    height: 180px;
+  }
+  
+  .row-2 {
+    background-color: #fff;
+    border-radius: 0 0 0.75em 0.75em;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 0 8px #aaa;
+  }
+  
+  .btn {
+    font-size: 1.05rem;
+    text-transform: capitalize;
+    padding: 0.5em 1em;
+    border-radius: 0.45em;
+    font-weight: 700;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .view-btn {
+    width: 80%;
+    background-color: #2da44e;
+    color: #fff;
+    padding: 0.75em 1em;
+  }
+  
+  .view-btn:hover,
+  .copy-btn:hover {
+    background-color: #2f8748;
+  }
+  
+  .copy-btn {
+    background-color: #2da44e;
+    color: #fff;
+  }
+  
+  /* added via JS */
+  
+  .hide {
+    display: none;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .toggle-container.show {
+    z-index: 10;
+    left: 3em;
+    top: 150px;
+    width: 33%;
+    height: 430px;
+    margin: 0;
+    position: absolute;
+  }
+  
+  .toggle-container.show .row-1 {
+    height: 100%;
+  }
+  
+  .toggle-container.show .row-2 {
+    display: none;
+  }
+  
+  .toggle-container.show .toggle {
+    transform: scale(1.2);
+  }
+  
+  .footer-row:nth-child(1) {
+    background-color: #ddd;
+    padding: 1em 0;
+  }
+  
+  .footer-row:nth-child(2) {
+    background-color: #2f4f4f;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 1em;
+    font-size: 1rem;
+    color: #2f4f4f;
+    font-weight: 700;
+  }
+  
+  footer p {
+    text-align: center;
+    padding: 0.75em 0;
+    color: #fff;
+    user-select: none;
+  }

@@ -20,24 +20,28 @@
 
 <body>
     <!-- navbar starts -->
-    <header>
-        <div class="logo">
-            <img src="img/ashish-zankat-low-resolution-logo-color-on-transparent-background.png" alt="">
-        </div>
-        <nav class="navbar">
-            <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#Project">Project</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="s1-header">
+        <header>
+
+            <div class="logo">
+                <img src="img/ashish-zankat-low-resolution-logo-color-on-transparent-background.png" alt="">
+            </div>
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
 
     <!--home section starts -->
-    <section>
-        <div class="container " id="#home">
+    <section class="home" id="home">
+        <div class="container ">
             <div class="row">
                 <div class="content">
                     <h2>Hi There,<br /> I'm Ashish <span>zankat</span></h2>
@@ -197,83 +201,87 @@
         </div>
     </section>
     <!-- work section end  -->
-      
-    <!-- contact section starts -->
-<section class="contact" id="contact">
-  
-    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-  
-    <div class="container">
-      <div class="content">
-        <div class="image-box">
-          <img draggable="false" src="img/contact-img.svg" alt="">
-        </div>
-      <form id="contact-form">
-        
-        <div class="form-group">
-          <div class="field">
-            <input type="text" name="name" placeholder="Name" required>
-            <i class='fas fa-user'></i>
-          </div>
-          <div class="field">
-            <input type="text" name="email" placeholder="Email" required>
-            <i class='fas fa-envelope'></i>
-          </div>
-          <div class="field">
-            <input type="text" name="phone" placeholder="Phone">
-            <i class='fas fa-phone-alt'></i>
-          </div>
-          <div class="message">
-          <textarea placeholder="Message" name="message" required></textarea>
-          <i class="fas fa-comment-dots"></i>
-          </div>
-          </div>
-        <div class="button-area">
-          <button type="submit">
-            Submit <i class="fa fa-paper-plane"></i></button>
-        </div>
-      </form>
-    </div>
-    </div>
-  </section>
-  <!-- contact section ends -->
-<!-- footer section starts -->
-<section class="footer">
 
-    <div class="box-container">
-  
-        <div class="box">
-            <h3>Ashish's Portfolio</h3>
-            <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
-        </div>
-  
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-            <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-            <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-            <a href="#Project"><i class="fas fa-chevron-circle-right"></i> Project</a>
-        </div>
-  
-        <div class="box">
-            <h3>contact info</h3>
-            <p> <i class="fas fa-phone"></i>+91 97374 45056</p>
-            <p> <i class="fas fa-envelope"></i>zankatashish5514@gmil.com</p>
-            <p> <i class="fas fa-map-marked-alt"></i>ahmedabad,gujrat 380007</p>
-            <div class="share">
-  
-                <a href="https://www.linkedin.com/in/zankat-ashish-90a445260/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-                <a href="https://github.com/ashish5514/wd/tree/main/js%20assigment" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-                <a href="zankatashish5514@gmil.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+
+        <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+        <div class="container">
+            <div class="content">
+                <div class="image-box">
+                    <img draggable="false" src="img/contact-img.svg" alt="">
+                </div>
+                <form id="contact-form">
+
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <i class='fas fa-user'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="email" placeholder="Email" required>
+                            <i class='fas fa-envelope'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="phone" placeholder="Phone">
+                            <i class='fas fa-phone-alt'></i>
+                        </div>
+                        <div class="message">
+                            <textarea placeholder="Message" name="message" required></textarea>
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">
+                            Submit <i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </form>
             </div>
         </div>
-    </div>
-  
-    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> Ashish Zankat</a></h1>
-  
-  </section>
-  <!-- footer section ends -->
-  
+    </section>
+    <!-- contact section ends -->
+    <!-- footer section starts -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Ashish's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br />
+                    Keep Rising 🚀. Connect with me over live chat!</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+                <a href="#Project"><i class="fas fa-chevron-circle-right"></i> Project</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-phone"></i>+91 97374 45056</p>
+                <p> <i class="fas fa-envelope"></i>zankatashish5514@gmil.com</p>
+                <p> <i class="fas fa-map-marked-alt"></i>ahmedabad,gujrat 380007</p>
+                <div class="share">
+
+                    <a href="https://www.linkedin.com/in/zankat-ashish-90a445260/" class="fab fa-linkedin"
+                        aria-label="LinkedIn" target="_blank"></a>
+                    <a href="https://github.com/ashish5514/wd/tree/main/js%20assigment" class="fab fa-github"
+                        aria-label="GitHub" target="_blank"></a>
+                    <a href="zankatashish5514@gmil.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+                href="https://www.linkedin.com/in/jigar-sable"> Ashish Zankat</a></h1>
+
+    </section>
+    <!-- footer section ends -->
+
 </body>
 
 </html>
