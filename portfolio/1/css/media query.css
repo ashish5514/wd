@@ -1,37 +1,59 @@
-@media (max-width:1600px) {
-    #menu {
-      display: none;
-    }
-  
+ @media (max-width:992px) {
+    /* #menu {
+        display: none;
+    } */
+
     .container {
-      width: 80%;
-      margin: 0 auto;
-      align-items: center;
-    }
-  
-    .education .box-container .box img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-    }
-  
-  
-  }
-  
-  @media (min-width:1200px){
-    .container {
-        width: 80%;
+        width: 1320px;
         margin: 0 auto;
         align-items: center;
-      }
+    }
+
+   html{
+    font-size: 100%;
+   }
+   header .logo {
+    width: 22%;
+}
+
+
+} 
+
+/* @media (max-width:1200px) {
+    .container {
+        width: 1160px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
     .contact .container {
-      max-width: 1050px;
-      width: 100%;
-      background: #fff;
-      border-radius: 1.5rem;
-      margin: 0 auto;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-  }
-    
-  }
+        max-width: 1050px;
+        width: 100%;
+        background: #fff;
+        border-radius: 1.5rem;
+        margin: 0 auto;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .pf-p {
+        padding: 10rem 0rem;
+    }
+    .about .row .content .box-container {
+        font-family: "Nunito";
+        font-weight: 600;
+      }
+
+} */
+
+/* @media (min-width:992px) {
+    header {
+        width: 69%;
+    }
+    header .logo {
+        text-decoration: none;
+        color: #0e2431;
+        width: 30%;
+    }
+    header .logo img {
+    }
+} */
