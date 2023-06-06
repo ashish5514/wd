@@ -27,10 +27,10 @@ body {
 
 /* ===navbar start=== */
 .s1-header {
-  
+
   /* align-items: center; */
-  
-  
+
+
 }
 
 header {
@@ -57,7 +57,11 @@ header {
   /* backdrop-filter: blur(20px); */
   /* box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3); */
 }
-
+.container {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
 #menu {
   display: none;
 }
@@ -103,22 +107,16 @@ header .navbar ul li a:hover {
 
 /* ====navbar end ===== */
 
-@media (max-width:1900px) {
-  #menu {
-    display:   none;
-  }
 
- 
-}
 
 
 /* <!--home section starts --> */
 
 .home .container {
 
-  width: 80%;
+  /* width: 80%;
   margin: 0 auto;
-  align-items: center;
+  align-items: center; */
 }
 
 .home .container .row {
@@ -138,7 +136,7 @@ header .navbar ul li a:hover {
   margin: 0 auto;
 }
 
-.container .image img {
+.container .row .image img {
   width: 60%;
   margin-left: auto;
   display: block;
@@ -147,7 +145,7 @@ header .navbar ul li a:hover {
   cursor: pointer;
 }
 
-.container .image img:hover {
+.container .row .image img:hover {
   box-shadow: 0 0px 41px hsla(265, 85%, 54%, 0.879);
 }
 
@@ -321,7 +319,7 @@ header .navbar ul li a:hover {
 
 .about .row .content {
   flex: 1 1 45rem;
-  padding: 3rem;
+  /* padding: 3rem; */
 }
 
 .about .row .content h3 {

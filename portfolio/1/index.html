@@ -16,27 +16,31 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
     <title>Portfolio | Ashish Zanakt</title>
+    <!-- media query  -->
+    <link rel="stylesheet" href="css/media query.css">
 </head>
 
 <body>
     <!-- navbar starts -->
     <section class="s1-header">
-        <header>
+        <div class="container">
+            <header>
 
-            <div class="logo">
-                <img src="img/ashish-zankat-low-resolution-logo-color-on-transparent-background.png" alt="">
-            </div>
-            <div id="menu" class="fas fa-bars"></div>
-            <nav class="navbar">
-                <ul>
-                    <li><a class="active" href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#Project">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+                <div class="logo">
+                    <img src="img/ashish-zankat-low-resolution-logo-color-on-transparent-background.png" alt="">
+                </div>
+                <div id="menu" class="fas fa-bars"></div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#Project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
     </section>
 
     <!--home section starts -->
@@ -75,40 +79,42 @@
 
     <!-- about section starts -->
     <section class="about" id="about">
+        <div class="container">
 
-        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+            <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
 
-        <div class="row">
+            <div class="row">
 
-            <div class="image">
-                <img draggable="false" class="tilt" src="img/content 20.jpeg" alt="">
-            </div>
-            <div class="content">
-                <h3>I'm <span> Ashish</span></h3>
-                <span class="tag">Web designer</span>
-
-                <p>I am a Web designer based in Ahmedabad, Gujrat.
-                    I am very passionate about improving my coding skills & designing websites.
-                    I build Websites using html, css, java script, jquery, bootstrap .
-                    Working for myself to improve my skills. </p>
-
-                <div class="box-container">
-                    <div class="box">
-                        <!-- <p><span> age: </span> 20</p> -->
-                        <p><span> phone no: </span> +91 97374 45056</p>
-                        <p><span> place : </span> ahmedabad , gujrat - 380007</p>
-                    </div>
-                    <div class="box">
-                        <p><span> email:</span> zankatashish5514@gmail.com</p>
-                    </div>
+                <div class="image">
+                    <img draggable="false" class="tilt" src="img/content 20.jpeg" alt="">
                 </div>
+                <div class="content">
+                    <h3>I'm <span> Ashish</span></h3>
+                    <span class="tag">Web designer</span>
 
-                <div class="resumebtn">
-                    <a href="resume/Ashish resume.pdf" target="_blank" class="btn"><span>Resume</span>
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
+                    <p>I am a Web designer based in Ahmedabad, Gujrat.
+                        I am very passionate about improving my coding skills & designing websites.
+                        I build Websites using html, css, java script, jquery, bootstrap .
+                        Working for myself to improve my skills. </p>
+
+                    <div class="box-container">
+                        <div class="box">
+                            <!-- <p><span> age: </span> 20</p> -->
+                            <p><span> phone no: </span> +91 97374 45056</p>
+                            <p><span> place : </span> ahmedabad , gujrat - 380007</p>
+                        </div>
+                        <div class="box">
+                            <p><span> email:</span> zankatashish5514@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="resumebtn">
+                        <a href="resume/Ashish resume.pdf" target="_blank" class="btn"><span>Resume</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+
                 </div>
-
             </div>
         </div>
     </section>
@@ -116,36 +122,39 @@
 
     <!-- education section starts -->
     <section class="education" id="education">
-        <div class="education-pad-tb">
+        <div class="container">
+            <div class="education-pad-tb">
 
-            <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
 
-            <p class="hed-text">Education is not the learning of facts, but the training of the mind to think.</p>
-        </div>
-        <div class="box-container">
+                <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
 
-            <div class="box">
-                <div class="image">
-                    <img draggable="false" src="img/download.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Bachelor of commerce</h3>
-                    <p> H.M.V arts & commerce college una,Gujrat| BKNMU </p>
-                    <h4>2018-2021 | Pursuing</h4>
-                </div>
+                <p class="hed-text">Education is not the learning of facts, but the training of the mind to think.</p>
             </div>
+            <div class="box-container">
 
-            <div class="box">
-                <div class="image">
-                    <img draggable="false" src="img/school.jpg" alt="">
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="img/download.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Bachelor of commerce</h3>
+                        <p> H.M.V arts & commerce college una,Gujrat| BKNMU </p>
+                        <h4>2018-2021 | Pursuing</h4>
+                    </div>
                 </div>
-                <div class="content">
-                    <h3>HSC commerce </h3>
-                    <p>shree v.p zala kelavani sankul khandheri,veraval</p>
-                    <h4>2016-2018 | Completed</h4>
+
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="img/school.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>HSC commerce </h3>
+                        <p>shree v.p zala kelavani sankul khandheri,veraval</p>
+                        <h4>2016-2018 | Completed</h4>
+                    </div>
                 </div>
+
             </div>
-
         </div>
     </section>
     <!-- education section ends -->
@@ -153,49 +162,51 @@
     <!-- work section starts  -->
 
     <section class="portfolio pf-p" id="Project">
+        <div class="container">
 
-        <h1 class="head"> <span> my </span> Project </h1>
+            <h1 class="head"> <span> my </span> Project </h1>
 
-        <div class="box-container">
-            <div class="box tilt">
-                <img src="img/1 project.jpg" alt="">
-                <div class="content">
-                    <a href="../Nature-Website/index.html" target="_blank" class="btn2">See More</a>
+            <div class="box-container">
+                <div class="box tilt">
+                    <img src="img/1 project.jpg" alt="">
+                    <div class="content">
+                        <a href="../Nature-Website/index.html" target="_blank" class="btn2">See More</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box tilt">
-                <img src="img/2 project.jpg" alt="">
-                <div class="content">
-                    <a href="../Ecommerce-Website/index.html" target="_blank" class="btn2">See More</a>
+                <div class="box tilt">
+                    <img src="img/2 project.jpg" alt="">
+                    <div class="content">
+                        <a href="../Ecommerce-Website/index.html" target="_blank" class="btn2">See More</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box tilt">
-                <img src="img/3 project.jpg" alt="">
-                <div class="content">
-                    <a href="../PSD/3.burger psd/index.html" target="_blank" class="btn2">See More</a>
+                <div class="box tilt">
+                    <img src="img/3 project.jpg" alt="">
+                    <div class="content">
+                        <a href="../PSD/3.burger psd/index.html" target="_blank" class="btn2">See More</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box tilt">
-                <img src="img/4 project.png" alt="">
-                <div class="content">
-                    <a href="../PSD/6.yoga psd/index.html" target="_blank" class="btn2">See More</a>
+                <div class="box tilt">
+                    <img src="img/4 project.png" alt="">
+                    <div class="content">
+                        <a href="../PSD/6.yoga psd/index.html" target="_blank" class="btn2">See More</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box tilt">
-                <img src="img/5 project.png" alt="">
-                <div class="content">
-                    <a href="" target="_blank" class="btn2">See More</a>
+                <div class="box tilt">
+                    <img src="img/5 project.png" alt="">
+                    <div class="content">
+                        <a href="" target="_blank" class="btn2">See More</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="box tilt">
-                <img src="" alt="">
-                <div class="content">
-                    <a href="" target="_blank" class="btn2">See More</a>
+                <div class="box tilt">
+                    <img src="" alt="">
+                    <div class="content">
+                        <a href="" target="_blank" class="btn2">See More</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -204,81 +215,85 @@
 
     <!-- contact section starts -->
     <section class="contact" id="contact">
-
-        <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-
         <div class="container">
-            <div class="content">
-                <div class="image-box">
-                    <img draggable="false" src="img/contact-img.svg" alt="">
-                </div>
-                <form id="contact-form">
 
-                    <div class="form-group">
-                        <div class="field">
-                            <input type="text" name="name" placeholder="Name" required>
-                            <i class='fas fa-user'></i>
-                        </div>
-                        <div class="field">
-                            <input type="text" name="email" placeholder="Email" required>
-                            <i class='fas fa-envelope'></i>
-                        </div>
-                        <div class="field">
-                            <input type="text" name="phone" placeholder="Phone">
-                            <i class='fas fa-phone-alt'></i>
-                        </div>
-                        <div class="message">
-                            <textarea placeholder="Message" name="message" required></textarea>
-                            <i class="fas fa-comment-dots"></i>
-                        </div>
+            <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+            <div class="container">
+                <div class="content">
+                    <div class="image-box">
+                        <img draggable="false" src="img/contact-img.svg" alt="">
                     </div>
-                    <div class="button-area">
-                        <button type="submit">
-                            Submit <i class="fa fa-paper-plane"></i></button>
-                    </div>
-                </form>
+                    <form id="contact-form">
+
+                        <div class="form-group">
+                            <div class="field">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <i class='fas fa-user'></i>
+                            </div>
+                            <div class="field">
+                                <input type="text" name="email" placeholder="Email" required>
+                                <i class='fas fa-envelope'></i>
+                            </div>
+                            <div class="field">
+                                <input type="text" name="phone" placeholder="Phone">
+                                <i class='fas fa-phone-alt'></i>
+                            </div>
+                            <div class="message">
+                                <textarea placeholder="Message" name="message" required></textarea>
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">
+                                Submit <i class="fa fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
     <!-- contact section ends -->
     <!-- footer section starts -->
     <section class="footer">
+        <div class="container">
 
-        <div class="box-container">
+            <div class="box-container">
 
-            <div class="box">
-                <h3>Ashish's Portfolio</h3>
-                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br />
-                    Keep Rising 🚀. Connect with me over live chat!</p>
-            </div>
+                <div class="box">
+                    <h3>Ashish's Portfolio</h3>
+                    <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br />
+                        Keep Rising 🚀. Connect with me over live chat!</p>
+                </div>
 
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-                <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-                <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-                <a href="#Project"><i class="fas fa-chevron-circle-right"></i> Project</a>
-            </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                    <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                    <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+                    <a href="#Project"><i class="fas fa-chevron-circle-right"></i> Project</a>
+                </div>
 
-            <div class="box">
-                <h3>contact info</h3>
-                <p> <i class="fas fa-phone"></i>+91 97374 45056</p>
-                <p> <i class="fas fa-envelope"></i>zankatashish5514@gmil.com</p>
-                <p> <i class="fas fa-map-marked-alt"></i>ahmedabad,gujrat 380007</p>
-                <div class="share">
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p> <i class="fas fa-phone"></i>+91 97374 45056</p>
+                    <p> <i class="fas fa-envelope"></i>zankatashish5514@gmil.com</p>
+                    <p> <i class="fas fa-map-marked-alt"></i>ahmedabad,gujrat 380007</p>
+                    <div class="share">
 
-                    <a href="https://www.linkedin.com/in/zankat-ashish-90a445260/" class="fab fa-linkedin"
-                        aria-label="LinkedIn" target="_blank"></a>
-                    <a href="https://github.com/ashish5514/wd/tree/main/js%20assigment" class="fab fa-github"
-                        aria-label="GitHub" target="_blank"></a>
-                    <a href="zankatashish5514@gmil.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                        <a href="https://www.linkedin.com/in/zankat-ashish-90a445260/" class="fab fa-linkedin"
+                            aria-label="LinkedIn" target="_blank"></a>
+                        <a href="https://github.com/ashish5514/wd/tree/main/js%20assigment" class="fab fa-github"
+                            aria-label="GitHub" target="_blank"></a>
+                        <a href="zankatashish5514@gmil.com" class="fas fa-envelope" aria-label="Mail"
+                            target="_blank"></a>
+                    </div>
                 </div>
             </div>
+
+            <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+                    href="https://www.linkedin.com/in/jigar-sable"> Ashish Zankat</a></h1>
         </div>
-
-        <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
-                href="https://www.linkedin.com/in/jigar-sable"> Ashish Zankat</a></h1>
-
     </section>
     <!-- footer section ends -->
 

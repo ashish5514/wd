@@ -1,0 +1,37 @@
+@media (max-width:1600px) {
+    #menu {
+      display: none;
+    }
+  
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      align-items: center;
+    }
+  
+    .education .box-container .box img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+    }
+  
+  
+  }
+  
+  @media (min-width:1200px){
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+      }
+    .contact .container {
+      max-width: 1050px;
+      width: 100%;
+      background: #fff;
+      border-radius: 1.5rem;
+      margin: 0 auto;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+    
+  }
