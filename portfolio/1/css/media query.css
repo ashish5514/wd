@@ -1,59 +1,38 @@
- @media (max-width:992px) {
-    /* #menu {
+ 
+@media (max-width: 575.98px) { ... }
+
+@media (max-width: 767.98px) { 
+    .container{
+        width: 666px;
+    }
+ }
+
+@media (max-width: 991.98px) { 
+       /* #menu {
         display: none;
     } */
 
     .container {
-        width: 1320px;
+        width: 878px;
         margin: 0 auto;
         align-items: center;
     }
 
-   html{
-    font-size: 100%;
-   }
+    html {
+        font-size: 58%;
+    }
    header .logo {
     width: 22%;
 }
+.home .container .row {
+    padding: 9rem 0;
+}
+.contact .container {
+    max-width: 866px;
+}
+ }
 
+@media (max-width: 1199.98px) { ... }
 
-} 
-
-/* @media (max-width:1200px) {
-    .container {
-        width: 1160px;
-        margin: 0 auto;
-        align-items: center;
-    }
-
-    .contact .container {
-        max-width: 1050px;
-        width: 100%;
-        background: #fff;
-        border-radius: 1.5rem;
-        margin: 0 auto;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    }
-
-    .pf-p {
-        padding: 10rem 0rem;
-    }
-    .about .row .content .box-container {
-        font-family: "Nunito";
-        font-weight: 600;
-      }
-
-} */
-
-/* @media (min-width:992px) {
-    header {
-        width: 69%;
-    }
-    header .logo {
-        text-decoration: none;
-        color: #0e2431;
-        width: 30%;
-    }
-    header .logo img {
-    }
-} */
+@media (max-width: 1399.98px) { ... 
+ 
