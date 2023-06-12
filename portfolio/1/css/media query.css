@@ -1,14 +1,24 @@
-@media (max-width: 1399.98px) {}
+@media (max-width: 1400px) {
 
-@media (max-width: 1199.98px) {
+
     .container {
-        width: 1024px;
+        width: 1000px;
+    }
+
+    header .navbar ul li a {
+        font-size: 2.20rem;
+    }
+}
+
+@media (max-width: 1200PX) {
+    .container {
+        width: 869px;
         margin: 0 auto;
         align-items: center;
     }
 
     .contact .container {
-        max-width: 1034px;
+        max-width: 869px;
     }
 
     html {
@@ -17,9 +27,9 @@
     }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
     .container {
-        width: 878px;
+        width: 675px;
         margin: 0 auto;
         align-items: center;
     }
@@ -34,72 +44,164 @@
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     .container {
 
-        width: 642px;
+        width: 549px;
         margin: 0 auto;
         align-items: center;
 
     }
 
     html {
-        font-size: 36.5%;
+        font-size: 32.5%;
     }
 
     .heading {
         font-size: 5rem;
     }
 
+    .content {
+        line-height: 31px;
+    }
+
+    .image {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .home .container .row .image img {
+        width: 100%;
+    }
+
     .about .row .content h3 {
-        font-size: 4.5rem;
+        font-size: 4rem;
+    }
+
+    .content h2 span {
+        font-size: 4rem;
+
+    }
+
+    .content .btn span {
+        font-size: 2.7rem;
+    }
+
+    .content .btn i {
+        font-size: 3.5rem;
+    }
+
+    .socials {
+        margin-top: 14rem;
+    }
+
+    .home .container .btn {
+        margin-top: 2rem;
+    }
+
+    .social-icons a {
+        font-size: 4rem;
+        width: 42px;
+        height: 42px;
+    }
+
+    .image {
+        width: 50%;
+    }
+
+    .about .row {
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .about .row .content {
+        width: 50%;
+    }
+
+    .about .row .image img {
+
+        width: 220px;
+    }
+
+    .about .row .content h3 {
+        font-size: 5rem;
     }
 
     .about .row .content .tag {
-        font-size: 3rem;
+        font-size: 4rem;
+        margin-top: 2rem;
     }
 
     .about .row .content p {
-        font-size: 2.50rem;
+        font-size: 3rem;
+    }
+
+    .about .row .content .box-container .box .left-1 {
+
+        position: absolute;
+        left: 0;
+        font-size: 20px
+    }
+
+    .about .row .content .box-container .box .left-2 {
+
+        position: absolute;
+        font-size: 20px;
+        left: 0;
+        bottom: 56px;
+    }
+
+    .about .row .content .box-container .box p span {
+        font-size: 20px;
     }
 
     .resumebtn {
         text-align: center;
     }
 
-    .education .box-container .box {
-        width: 100%;
+    .resumebtn .btn {
+        padding: 4rem 8rem;
+
     }
 
-    .education .hed-text {
-        font-size: 2.5rem;
-    }
-
-    .education .box-container .box .content p {
-        font-size: 2.5rem;
-    }
-
-    .education .box-container .box .content h3 {
+    .about .row .content p {
         font-size: 3.5rem;
     }
 
-    .education h4 {
-        font-size: 3rem;
-    }
 
-    .portfolio .box-container .box {
-        height: 30rem;
+    .about .row .content .resumebtn .btn span {
+        font-size: 20px;
     }
 
     .contact .container {
-        max-width: 640px;
+        max-width: 551px;
+    }
+
+    .button-area button {
+
+        font-size: 2.8rem;
+    }
+
+    .button-area button i {
+        left: 5px;
+        font-size: 2.5rem;
+    }
+
+    form .button-area {
+        display: flex;
+        float: initial;
+        flex-direction: column;
     }
 }
 
-@media (max-width: 575.98px) {
+
+
+
+
+@media (max-width: 640px) {
 
     .container {
-        width: 540px;
+        width: 420px;
         margin: 0 auto;
         align-items: center;
     }
@@ -138,7 +240,7 @@
     }
 
     .container .row .image img {
-        width: 45%;
+        /* width: 45%; */
         margin: 0 auto;
         display: block;
         border-radius: 7%;
@@ -149,6 +251,11 @@
     .content {
         display: block;
         text-align: center;
+    }
+
+    .content {
+        line-height: 39px;
+        margin: 34px 0;
     }
 
     .education .box-container .box img {
@@ -168,6 +275,10 @@
         padding: 1rem 0;
     }
 
+    .content {
+        line-height: 39px;
+    }
+
     .home .container .btn {
         margin-top: 1rem;
         position: absolute;
@@ -176,7 +287,7 @@
         border-radius: 4em;
         transition: 0.5s;
         color: #fff;
-        left: 209px;
+        left: 160px;
         background: #2506ad;
         box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
         font-family: "Nunito", sans-serif;
@@ -199,11 +310,23 @@
     .about .row {
         display: block;
         padding: 8rem 0;
+        margin: 0 auto;
+        position: relative;
+
+    }
+
+    .heading {
+        font-size: 6rem;
     }
 
     .about .row .content h3 {
-        color: rgb(27, 27, 27);
-        font-size: 7.5rem;
+        /* color: rgb(27, 27, 27); */
+        font-size: 8.5rem;
+    }
+
+    .about .row .content {
+        width: 100%;
+        margin: 35px auto;
     }
 
     .about .row .content .tag {
@@ -216,12 +339,40 @@
     }
 
     .about .row .content span {
-        font-size: 4rem;
+        font-size: 8rem;
 
     }
 
     .resumebtn .btn {
         padding: 3.7rem 3rem;
+    }
+
+    .about .row .content .box-container .box .left-2 {
+        position: absolute;
+        font-size: 20px;
+        left: 59px;
+        bottom: 58px;
+    }
+
+    .about .row .content .box-container .box .left-1 {
+        position: absolute;
+        font-size: 20px;
+        left: 82px;
+        bottom: 124px;
+    }
+
+    .resumebtn {
+        position: absolute;
+        bottom: 11px;
+        left: 143px;
+    }
+
+    .heading {
+        font-size: 8rem;
+    }
+
+    .education .hed-text {
+        font-size: 3rem;
     }
 
     .education .box-container .box {
@@ -235,8 +386,60 @@
     .portfolio .box-container {
         width: 507px;
     }
-    .contact .container{
-        max-width: 490px;
+
+    .education .box-container .box {
+        width: 75%;
+    }
+
+    .education .box-container .box .content h3 {
+        font-size: 4.5rem;
+    }
+
+    .education .box-container .box .content p {
+        font-size: 3.5rem;
+    }
+    .education h4 {
+        font-size: 4rem;
+    }
+
+    .portfolio .box-container {
+        width: 420px;
+    }
+
+    .head {
+        font-size: 7rem;
+    }
+    .portfolio .box-container .box {
+        flex: 1 1 39rem;
+        height: 27rem;
+    }
+    .portfolio .box-container .box .content {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: -34px;
+        left: -105%;
+        background: #fff9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact .container {
+        max-width: 420px;
+    }
+    .footer .box-container .box a {
+        font-size: 2.5rem;
+    }
+    .footer .box-container .box h3 {
+        font-size: 4.5rem;
+    }
+    .footer .box-container .box p {
+        font-size: 2.5rem;
+    }
+    .footer .box-container .box .share a {
+        font-size: 2.5rem;
     }
 
 }
+
+@media (max-width:480px) {}

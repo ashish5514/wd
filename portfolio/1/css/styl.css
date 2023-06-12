@@ -651,7 +651,7 @@ header .navbar ul li a:hover {
 }
 
 .contact .content .image-box {
-  max-width: 60%;
+  /* max-width: 60%; */
   margin-left: 4rem;
 }
 
@@ -662,7 +662,7 @@ header .navbar ul li a:hover {
 }
 
 .contact .content form {
-  width: 45%;
+  width: 50%;
   margin-right: 3.5rem;
 }
 
