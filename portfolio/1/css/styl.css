@@ -13,6 +13,7 @@
 }
 
 
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -553,7 +554,7 @@ header .navbar ul li a:hover {
   font-size: 4rem;
   font-weight: 800;
   color: rgb(115, 3, 167);
-  ;
+  
   text-align: center;
 }
 

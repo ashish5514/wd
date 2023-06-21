@@ -146,9 +146,11 @@
     .about .row .content .box-container .box .left-2 {
 
         position: absolute;
-        font-size: 20px;
-        left: 0;
-        bottom: 56px;
+        font-size: 22px;
+        left: 22px;
+        bottom: 37px;
+        width: 42%;
+
     }
 
     .about .row .content .box-container .box p span {
@@ -186,7 +188,27 @@
         left: 5px;
         font-size: 2.5rem;
     }
-
+    .education .box-container .box .content h3 {
+        font-size: 4.5rem;
+        color: #012970;
+        padding: 0.5rem 0;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 1rem;
+    }
+    .education .box-container .box .content p {
+    font-size: 3rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+    .education h4 {
+        font-size: 3.5rem;
+        color: rgb(34, 109, 0);
+        text-align: left;
+        margin: 1rem;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
     form .button-area {
         display: flex;
         float: initial;
@@ -287,7 +309,8 @@
         border-radius: 4em;
         transition: 0.5s;
         color: #fff;
-        left: 160px;
+        left: 235
+        px;
         background: #2506ad;
         box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
         font-family: "Nunito", sans-serif;
@@ -350,8 +373,9 @@
     .about .row .content .box-container .box .left-2 {
         position: absolute;
         font-size: 20px;
-        left: 59px;
+        left: 9px;
         bottom: 58px;
+        width: 100%;
     }
 
     .about .row .content .box-container .box .left-1 {
@@ -425,7 +449,7 @@
         justify-content: center;
     }
     .contact .container {
-        max-width: 420px;
+        max-width: 455px;
     }
     .footer .box-container .box a {
         font-size: 2.5rem;
@@ -442,4 +466,6 @@
 
 }
 
-@media (max-width:480px) {}
+@media (max-width:480px) {
+    
+}
