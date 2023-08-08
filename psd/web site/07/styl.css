@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600&family=Quicksand:wght@300;400;500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: #0b3046;
+    transition: all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999999999999999999999;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.call-part ul li {
+    display: inline-block;
+    align-items: center;
+}
+
+.header-contect-us ul {
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .........banner.....section...... */
+
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.banner-bg {
+    height: 835px;
+    background-color: rgb(226, 223, 221);
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.video-part {
+    width: 50%;
+}
+
+
+.banner-left-text {
+    height: 835px;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-left-text h1 {
+    font-size: 90px;
+    letter-spacing: 2px;
+    line-height: 84px;
+    font-weight: 800;
+    padding: 30px 0;
+}
+
+.banner-left-text h5 {
+    width: 430px;
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 42px;
+    color: #0b3046;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.play-btn {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.play-btn a {
+    display: inline-flex;
+
+}
+
+.play-btn a:hover {
+    transition: 0.9s;
+    transform: rotateX(200deg);
+
+}
+
+.pad-tb {
+    padding: 125px 0 0 0;
+}
+
+.play-btn p {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.play-btn a img {
+    border-radius: 50%;
+    padding: 0 9px;
+    width: 61px;
+}
+
+.video-box {
+    /* width: 76%; */
+    /* margin: 51px auto; */
+    position: relative;
+    cursor: pointer;
+}
+
+.video-box video {
+    /* border: 8px solid #ffffff; */
+    /* border-radius: 7px; */
+    filter: drop-shadow(0 0 43.5px rgba(0, 0, 0, 0.31));
+    /* width: 913px; */
+}
+
+/* <!-- Consultation-sec  --> */
+
+
+.consultation-sec{
+    
+    background-color: #56728c;
+}
+.col-33{
+    padding: 20px;
+}
+.col-33 h4 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.col-33 strong {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 0;
+}
+.col-33 strong :hover {
+    color: #7e0000ad;
+}
+
+/* Disability-sec  */
+
+.disability-sec {
+    background-image: url("img/toronto-sec-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover   ; */
+}
+.disability-sec-tittle {
+    padding-bottom: 60px;
+}
+
+.disability-sec-tittle h2 {
+    font-size: 75px;
+    letter-spacing: 2px;
+    line-height: 82px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.disability-sec-tittle h5 {
+    font-size: 82px;
+    line-height: 0px;
+    color: #56728c;
+    font-weight: 400;
+    margin: 48px 0;
+}
+
+.disability-sec {
+    padding: 100px 0;
+}
+
+.col30 {
+    width: 30.3%;
+}
+
+.disability-sec .box-img img {
+    width: 100%;
+}
+
+.disability-sec .box {
+    filter: drop-shadow(0px -3px 35px rgba(0, 0, 0, 0.22));
+    background-color: #56728c;
+}
+
+
+.disability-sec .box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 46px 50px 0 50px;
+}
+
+.disability-sec .box-text h6 {
+    font-size: 20px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.disability-sec .box-text p {
+    width: 382px;
+    height: 98px;
+    font-size: 23px;
+    line-height: 34px;
+    color: #ffffff;
+    margin: 22px 0;
+    font-weight: 400;
+    text-align: center;
+}

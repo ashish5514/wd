@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Law</title>
+    <link rel="stylesheet" href="styl.css">
+
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/main-logo.png" alt=""></a>
+        </div>
+        <div class="header-contact-us">
+            <div class="call-part">
+                <ul>
+                    <li>
+                        <p> <em>call anytime</em> </p>
+                    </li>
+                    <li><a href="tel:9157026161">416.630.8880</a></li>
+                </ul>
+                <ul class="call-part-buttom">
+                    <li>
+                        <p> Toll-Free <a href="tel:9157026161">1.877.311.8880 </a></p>
+                    </li>
+                    <li>
+                        <p> | Open 7 Days a Week</p>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </header>
+    <section class="banner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-40">
+                    <div class="banner-left-text  pad-tb">
+                        <h5>Has your Disability Claim
+                            been Denied or Benefits
+                            Terminated?</h5>
+                        <h1>Don’t
+                            Give Up.</h1>
+                        <div class="play-btn">
+                            <p>Play Video </p>
+                            <a href=""><img src="img/banner-sec-video-icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-part">
+                    <div class="video-box  pad-tb">
+                        <video id="video" width="100%" height="100%" poster="img/video-poster.png">
+                            <source src="img/sec4-video.mp4" type="video/mp4">
+                        </video>
+
+
+                        <!-- <div class="play overlay"><img src="img/sec4-overlay-btn.png" alt="play-icon"></div> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Consultation-sec  -->
+
+    <section class="consultation-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-33">
+                    <h4>No Upfront</h4>
+                    <strong>Fees</strong>
+                </div>
+                <div class="col-33">
+                    <h4> Free Consultation</h4>
+                    <strong><a href="tel:9737445056">1.877.311.8880</a></strong>
+                </div>
+                <div class="col-33">
+                    <h4>7 Offices</h4>
+                    <strong>throughout Ontario</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Disability-sec.......  -->
+
+    <section class="disability-sec">
+        <div class="container">
+            <div class="disability-sec-tittle">
+                <h2>Toronto Disability Lawyer</h2>
+                <h5>Servicing all of Ontario</h5>
+            </div>
+
+            <div class="row">
+                <div class="col30">
+                    <div class="box">
+                        <div class="box-img">
+                            <img src="img/Layer222.png" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h6>Fibromyalgia &
+                                Chronic Pain</h6>
+                            <p>Disability insurance companies routinely deny Fibromyalgia... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col30">
+                    <div class="box">
+                        <div class="box-img">
+                            <img src="img/Layer1111.png" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h6>Psychiatric Disability
+                                Claims</h6>
+                            <p>Depression, Anxiety, Bi-Polar Disorder, PTSD, Panic Disorder... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col30">
+                    <div class="box">
+                        <div class="box-img">
+                            <img src="img/Laye000.png" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h6>Short-Term & <br>
+                                Long-Term Disability</h6>
+                            <p>Short-term and Long-Term Disability benefits are there... </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // video-js 
+        $(document).ready(function () {
+            $(".container").click(function () {
+                if (jQuery("#video").get(0).paused) {
+                    jQuery("#video").trigger("play");
+                    jQuery(".play").fadeOut(500);
+                } else {
+                    jQuery("#video").trigger("pause");
+                    jQuery(".play").fadeIn(500);
+                }
+            });
+        });
+
+    </script>
 </body>
+
 </html>
