@@ -25,6 +25,6 @@
 // speak any time constant variable declaration now 
 //   no speak const variable ... 
 
- const pi = 3.14;
-    // pi = 3.15;
-    console.log(pi *2*2);
+//  const pi = 3.14;
+//     pi = 3.15;
+//     console.log(pi *2*2);

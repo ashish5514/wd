@@ -251,3 +251,70 @@ html {
 .p-color{
     color: #007bff;
 }
+
+
+/* footer section start  */
+
+.footer-bg{
+    background-color: #343434;
+    color: white;
+    padding: 60px 0;
+}
+
+.col-25 h3{
+    font-size: 38px;
+}
+.col-25 p{
+    font-size: 21px;
+    margin: 7px 0;
+
+}
+.footer-col-50-left{
+    width: 50%;
+}
+.footer-col-50-right{
+    text-align: end;
+    width: 50%;
+}
+.footer-col-50-right h3{
+    font-size: 38px;
+    margin: 7px 0;
+}
+.footer-col-50-right p{
+    font-size: 22px;
+    margin: 12px 0;
+}
+/* ......btn.....  */
+
+.footer-search-btn input[type="text"] {
+    border: none;
+    padding: 8px;
+    width: 232px;
+    height: 45px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    text-align: center;
+
+}
+.footer-icon-img{
+    width: 16px;
+}
+
+.footer-search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 127px;
+    height: 45px;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.footer-search-button:hover {
+    background-color: #0056b3;
+}
+.footer-doctor-card-icon{
+    margin: 12px 0;
+    font-size: 30px;
+}
