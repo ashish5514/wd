@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-bg {
+    /* background-color: #daac00; */
+    background-color: #fcc302;
+
+}
+
+.flex {
+    display: flex;
+
+}
+.pad-tb{
+    padding: 40px 0;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+
+.nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 25px;
+}
+
+.search-btn input[type="text"] {
+    border: none;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    text-align: center;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* <!-- ...banner sec.......  --> */
+
+.banner-bg{
+    background-color: #fcc302;
+}
+.col-60 {
+    width: 60%;
+    /* padding: 50px 0; */
+    margin: 99px 0;
+    align-items: center;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60-text {
+    /* width: 80%; */
+    color: white;
+    
+}
+
+.col-40-img img {
+    width: 100%;
+}
+.col-60-text h2{
+    font-weight: 500;
+}
+.col-60-text h2{
+    font-size: 56px;
+
+}
+.col-60-text p {
+    font-size: 32px;
+    margin: 50px 0;
+    font-weight: 300;
+}
+.col60-btn{
+    text-align: start;
+}
+
+.contact-btn {
+    width: 145px;
+    height: 53px;
+    font-size: 21px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: #00bec9;
+}
+
+.service-btn {
+    width: 145px;
+    height: 53px;
+    font-size: 21px;
+    border: 1px solid white;
+    margin:0 20px ;
+    color: white;
+    border-radius: 7px;
+    background-color: #fcc302;
+}
+
+/* <!-- animal service section..........  --> */
+    
+
+
+
+.col-50{
+    width: 50%;
+    /* color: white; */
+    align-items: center;
+    margin: 90px 0;
+}
+
+.col-50-text{
+    align-items: center;
+    margin: 99px 0;
+}
+.col-50-text h3{
+    font-size: 43px;
+}
+.col-50-text p{
+    font-size: 25px;
+    margin: 25px 0;
+}
+.col-50-img img{
+    width: 100%;
+}
+
+/* <!-- .....Vaccination  section.... --> */
+  
+.Vaccination-sec-bg{
+    background-color: #fcc302;
+    color: white;
+}
+
+.hed-tittle{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hed-tittle h2{
+    font-size: 55px;
+    
+}
+.hed-tittle p{
+    font-size: 25px;
+    
+}
+.col-33{
+    width: 30%;
+}
+.card-text{
+    text-align: center;
+    margin: 10px 0;
+}
+  
+
+
+
+/* ....love animal.... */
+
+
+
+.sec-col-50-text{
+    padding: 0 53px;
+    text-align: end;
+}
+
+/* <!-- pet-prise section  --> */
+
+.pet-prise-sec{
+    background-color: #fcc302;
+    color: white;
+}
+.buy-btn{
+    margin: 10px 0;
+    height: 35px;
+    width: 111px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 30px;
+}
+
+/* <!-- doctor section start  --> */
+.department-sec{
+    background-image: url(img/department-sec-bg-img.png);
+    /* height: 100px; */
+}
+.tex-center{
+    text-align: center;
+}
+.tb-p{
+    padding: 99px 0;
+    
+}
+
+/* ...recent post section......  */
+
+.rec-card-text{
+    padding: 5px 10px;
+}
+.rec-card-text p{
+    margin: 10px 0;
+}
+.card-img img{
+    width: 100%;
+}
+.rec-col-33-card{
+    border: none;
+    box-shadow: 4px 10px 18px 10px rgba(0,0,0,0.18)
+}
+.p-color{
+    color: #007bff;
+}
