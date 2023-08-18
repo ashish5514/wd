@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form validation</title>
     <style>
-        .container{
+        .container {
             width: 1200px;
             margin: 0 auto;
         }
-        form{
+
+        form {
             text-align: center;
         }
-        input[type="submit"]{
-            
-        }
 
-
+        input[type="submit"] {}
     </style>
 </head>
+
 <body>
     <section>
         <div class="container">
@@ -27,9 +27,9 @@
                 <input type="text" id="username"><span id="usererror"></span>
                 <br>
                 <label for="password">password</label>
-                <input type="password" id="password">
+                <input type="password" id="password"><span id="passerror"></span>
                 <br>
-                    <input type="submit" value="submit">                
+                <input type="submit" value="submit">
 
 
             </form>
@@ -40,24 +40,39 @@
         let username = document.getElementById("username")
         let password = document.getElementById("password")
         let usererror = document.getElementById("usererror")
+        let passerror = document.getElementById("passerror")
+        let count = 1 
+
+        
         console.log(usererror);
         console.log(password);
 
-        function validation(){
-            if(username.value == ""){
+        function validation() {
+            if (username.value == "") {
                 console.log("eorrer");
                 usererror.innerHTML = "must be"
             }
             else {
                 usererror.innerHTML = ""
             }
-            if(password.value)){
+            if (password.value == '') {
+                passerror.innerHTML = "must be "
+
+            }
+            else if (password.value.length < 7) {
+                passerror.innerHTML = "add more 7 "
                 
             }
+            else{
+                passerror.innerHTML = " "
+
+            }
+
             return false
-            
+
 
         }
     </script>
 </body>
+
 </html>
