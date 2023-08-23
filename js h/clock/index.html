@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div id="time"></div>
+    </div>
+
+    <script >
+        function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+
+    const timeString = `${hours}:${minutes}:${seconds}`;
+
+    document.getElementById('time').textContent = timeString;
+}
+
+// Update the clock every second
+setInterval(updateClock, 1000);
+
+// Initial call to display the clock
+updateClock();
+
+    </script>
+</body>
+</html>
