@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional expressions</title>
+</head>
+<body>
+    <script>
+        let a = prompt("how what yo age?");
+         a = Number.parseInt  (a); 
+        if (a<0){
+            alert("this is unvalid age");
+        }
+         else if (a<9){
+            alert("you are kid you cannot even think of drive");
+        }
+         else if (a<18 && a>=9){
+            alert("you are kid you can think of drive");
+        }
+         else {
+            alert("you can no drive as you are above 18");
+        }
+        console.log("done");
+        ///cghjkl;''lkjhgffffffffffffff
+        console.log("you can" , a<18? "not drive":"drive");
+    </script>
+</body>
+</html>
